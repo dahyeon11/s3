@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "bucket": {
+      "type": "library",
+      "root": "libs/bucket",
+      "entryFile": "index",
+      "sourceRoot": "libs/bucket/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/bucket/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
